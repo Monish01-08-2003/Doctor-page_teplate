@@ -21,6 +21,9 @@ html {
   .mousecursor {
     display: none !important;
   }
+  .img-fluid2{
+    height: 210px !important;
+  }
 }
 
 .preloader img {
