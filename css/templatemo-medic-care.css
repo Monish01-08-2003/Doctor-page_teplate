@@ -48,6 +48,8 @@ body {
 /* custom css  */
 .img-fluid {
   border-radius: 15px !important;
+  height: 542px;
+  width: 100%;
 }
 /*---------------------------------------
   TYPOGRAPHY               
@@ -273,11 +275,12 @@ strong {
 
 .heroText {
   background: var(--white-color);
-  position: absolute;
+  position: relative;
   z-index: 2;
-  bottom: 0;
-  right: 0;
-  padding: 1.5rem 2.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  padding: 20px;
   width: 50%;
 }
 
