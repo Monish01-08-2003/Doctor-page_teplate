@@ -17,14 +17,6 @@ html {
   align-items: center;
   z-index: 1000;
 }
-@media screen and (min-width: 700px) {
-  .mousecursor {
-    display: none !important;
-  }
-  .img-fluid2{
-    height: 210px !important;
-  }
-}
 
 .preloader img {
   width: 50px; /* Adjust the width as needed */
@@ -885,6 +877,13 @@ strong {
 }
 
 @media screen and (max-width: 991px) {
+  .mousecursor {
+    display: none !important;
+  }
+
+  .img-fluid2 {
+    height: 210px !important;
+  }
   body {
     padding-top: 74px;
   }
