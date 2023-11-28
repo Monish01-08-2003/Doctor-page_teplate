@@ -4,7 +4,15 @@ $(window).mousemove(function (e) {
     `translateX(calc(${e.clientX}px - 1.25rem)) translateY(calc(${e.clientY}px - 1.25rem))`
   );
 });
-
+document.addEventListener("DOMContentLoaded", function () {
+  // Hide the preloader when all images are loaded
+  window.addEventListener("load", function () {
+    document.querySelector(".preloader").style.opacity = 0;
+    setTimeout(function () {
+      document.querySelector(".preloader").style.display = "";
+    }, 600); // Adjust the delay as needed
+  });
+});
 (function ($) {
   "use strict";
 
