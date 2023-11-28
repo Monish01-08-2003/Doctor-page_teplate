@@ -274,6 +274,7 @@ strong {
 -----------------------------------------*/
 .hero {
   padding-top: 0rem;
+  margin-bottom: -10px;
 }
 
 .hero .container {
