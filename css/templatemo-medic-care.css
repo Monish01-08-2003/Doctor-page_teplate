@@ -48,7 +48,7 @@ body {
 /* custom css  */
 .img-fluid {
   border-radius: 15px !important;
-  height: 542px;
+  height: 625px;
   width: 100%;
   filter: brightness(0.9);
 }
@@ -289,7 +289,7 @@ strong {
   z-index: 2;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -99%);
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 50%;
@@ -538,7 +538,7 @@ strong {
   left: 50%;
   transform: translate(-50%, 0);
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  box-shadow: rgba(0, 0, 0, 0.35) 1px -11px 20px 4px;
   z-index: 1;
 }
 
