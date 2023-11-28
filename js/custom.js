@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("load", function () {
     document.querySelector(".preloader").style.opacity = 0;
     setTimeout(function () {
-      document.querySelector(".preloader").style.display = "";
+      document.querySelector(".preloader").style.display = "none";
     }, 600); // Adjust the delay as needed
   });
 });
