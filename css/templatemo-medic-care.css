@@ -17,6 +17,11 @@ html {
     align-items: center;
     z-index: 1000;
 }
+@media screen and (min-width: 700px) {
+  .cursor{
+    display: none !important;
+  }
+}
 
 .preloader img {
     width: 50px; /* Adjust the width as needed */
