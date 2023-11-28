@@ -52,6 +52,10 @@ body {
   width: 100%;
   filter: brightness(0.9);
 }
+.headingtext {
+  width: fit-content;
+  border-bottom: 1px solid #f46f74;
+}
 #myCarousel {
   justify-content: center;
   align-items: center;
