@@ -26,7 +26,7 @@ https://templatemo.com/tm-566-medic-care
   --h4-font-size: 28px;
   --h5-font-size: 24px;
   --h6-font-size: 22px;
-  --p-font-size: 18px;
+  --p-font-size: 12px;
   --menu-font-size: 16px;
 
   --font-weight-light: 400;
@@ -58,7 +58,7 @@ body {
   display: flex;
 }
 .carousel-inner {
-  width: 70% !important;
+  width: 80% !important;
 }
 /*---------------------------------------
   TYPOGRAPHY               
@@ -290,6 +290,7 @@ strong {
   left: 50%;
   transform: translate(-50%, -100%);
   padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 50%;
 }
 
