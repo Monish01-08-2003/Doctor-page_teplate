@@ -933,11 +933,12 @@ strong {
 
   .heroText {
     position: relative;
-    bottom: 100px;
+    /* bottom: 100px; */
     left: 0;
     width: auto;
-    margin-bottom: -100px;
+    margin-bottom: 226px;
     padding: 2rem;
+    transform: translate(0%, 0%);
   }
 
   .featured-circle {
