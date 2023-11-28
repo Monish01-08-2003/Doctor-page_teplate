@@ -44,7 +44,7 @@ body {
   place-items: center;
 }
 .cursor div div {
-  border: 1px solid #f46f74;
+  border: 1px solid #f46f73ca;
   border-radius: 50%;
   animation: pulse 2.5s linear infinite;
   box-shadow: 0 0 50px 5px #f4b4b6;
