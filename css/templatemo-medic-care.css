@@ -946,7 +946,7 @@ strong {
     width: auto;
     margin-bottom: 226px;
     padding: 2rem;
-    transform: translate(0%, 0%);
+    transform: translate(0%, 0%) !important;
   }
 
   .featured-circle {
