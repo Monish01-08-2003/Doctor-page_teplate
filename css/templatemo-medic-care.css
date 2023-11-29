@@ -357,11 +357,12 @@ strong {
   overflow: hidden;
   height: 580px;
 }
-.galleryImage{
+.galleryImage {
   border-radius: 10px;
 }
 .heroText {
-  background: var(--white-color);
+  background: #ffffff94;
+  backdrop-filter: blur(10px);
   position: relative;
   z-index: 2;
   top: 50%;
