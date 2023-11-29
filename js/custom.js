@@ -4,6 +4,7 @@ $(window).mousemove(function (e) {
     `translateX(calc(${e.clientX}px - 1.25rem)) translateY(calc(${e.clientY}px - 1.25rem))`
   );
 });
+AOS.init();
 document.addEventListener("DOMContentLoaded", function () {
   // Hide the preloader when all images are loaded
   window.addEventListener("load", function () {
