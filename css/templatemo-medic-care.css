@@ -1,6 +1,5 @@
 /* mouse cursor css  */
 html {
-  cursor: none;
   --text: #000000;
   background: #001220;
   scroll-behavior: smooth;
